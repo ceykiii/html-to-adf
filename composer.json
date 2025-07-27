@@ -1,0 +1,17 @@
+{
+    "name": "jira-adf/html-to-adf",
+    "description": "Convert HTML, Markdown, and Plain Text to Atlassian Document Format (ADF)",
+    "autoload": {
+        "psr-4": {
+            "HtmlToAdf\\": "src/"
+        }
+    },
+    "require": {
+        "ext-dom": "*",
+        "league/commonmark": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "license": "MIT"
+}
